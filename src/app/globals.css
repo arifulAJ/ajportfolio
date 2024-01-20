@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,30 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.slick-slide > div {
+  margin: 0 30px;
+}
+.slick-slide > div:nth-child(1) {
+  margin-left: 0;
+}
+.slick-list {
+  margin-right: -30px;
+}
+
+.slick-dots li.slick-active button:before {
+  border: 1px solid #f76c09;
+  border-radius: 50%;
+
+  font-size: 5px !important;
+
+  color: #f76c09 !important;
+}
+.slick-dots li button:before {
+  color: #f76c09 !important;
+  font-size: 10px !important;
+}
+.slick-track {
+  padding-bottom: 30px;
 }

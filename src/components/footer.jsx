@@ -19,7 +19,7 @@ const Footer = () => {
             Quaerat aliquid{" "}
           </p>
           <a
-            className="text-xl font-bold "
+            className="md:text-xl font-bold "
             href="mailto:arifulislam10111999@gmail.com"
           >
             arifulislam10111999@gmail.com
@@ -111,7 +111,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="basis-1/3 ">
+          <div className="basis-1/3 px-2 ">
             <div className="flex items-center py-6 ">
               <Image
                 width={20}
@@ -136,7 +136,10 @@ const Footer = () => {
               />
 
               <div className="pl-2">
-                <p>127 mojib sorok Sirajgonj, Dhaka, Bangladesh</p>
+                <p>
+                  127 mojib sorok Sirajgonj,
+                  <br /> Dhaka, Bangladesh
+                </p>
               </div>
             </div>
           </div>

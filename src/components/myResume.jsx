@@ -30,18 +30,22 @@ const MyResume = () => {
         {/* education section  */}
         <div
           ref={ref}
-          className={`  ${inView ? "animate-fade-in-up-resume1" : ""}`}
+          className={`  ${
+            inView
+              ? "animate-fade-in-up-resume1 md:animate-fade-in-up-resume1lg"
+              : ""
+          }`}
         >
-          <p className="font-extrabold text-4xl  py-4">
-            Education {inView ? "yes" : "no"}
+          <p className="font-bold md:font-extrabold md:text-4xl  py-4">
+            Education
           </p>
 
           <div className=" bg-white flex flex-col lg:flex-row">
             <div className="p-2 lg:p-10">
-              <h1 className="font-bold text-xl ">
+              <h1 className="md:font-bold md:text-xl ">
                 BSc in Computer Science and Engineering (CSE)
               </h1>
-              <p className="py-4 text-xl text-text-color ">
+              <p className="py-4 md:text-xl text-text-color ">
                 National university of Bangladesh (2019-2023)
               </p>
               <p className="text-text-color">
@@ -52,10 +56,10 @@ const MyResume = () => {
             <div className="hidden  lg:block w-1 max-h-fit my-10 bg-slate-600"></div>
 
             <div className="p-2 py-16 lg:p-10">
-              <h1 className="font-bold text-xl ">
+              <h1 className="md:font-bold md:text-xl ">
                 Higher Secondary School Sertificate (HSC)
               </h1>
-              <p className="py-4 text-xl text-text-color ">
+              <p className="py-4 md:text-xl text-text-color ">
                 Khamar Gram Degree College
               </p>
               <p className="text-text-color">
@@ -66,10 +70,10 @@ const MyResume = () => {
             <div className="hidden  md:hidden lg:block w-1 max-h-fit my-10 bg-slate-600"></div>
 
             <div className="p-2  lg:p-10">
-              <h1 className="font-bold text-xl ">
+              <h1 className="md:font-bold md:text-xl ">
                 Secondary School Certificate (SSC)
               </h1>
-              <p className="py-4 text-xl text-text-color ">
+              <p className="py-4 md:text-xl text-text-color ">
                 Batil M.L High School
               </p>
               <p className="text-text-color">
@@ -79,63 +83,64 @@ const MyResume = () => {
             </div>
           </div>
         </div>
+
         {/* exprieacne section  */}
-        {inView ? (
-          <div
-            ref={ref1}
-            className={` my-16  ${inView1 ? "animate-fade-in-up-resume2" : ""}`}
-          >
-            <p className="font-extrabold text-4xl  py-4 ">
-              {" "}
-              Software & Skills {inView ? "yes" : "no"}
-            </p>
+        <div
+          ref={ref1}
+          className={` my-16  ${
+            inView1
+              ? "animate-fade-in-up-resume2 md:animate-fade-in-up-resume2lg"
+              : ""
+          }`}
+        >
+          <p className=" font-bold md:font-extrabold md:text-4xl  py-4 ">
+            {" "}
+            Software & Skills
+          </p>
 
-            <div className="bg-white flex flex-col lg:flex-row">
-              <div className="p-2 lg:p-10">
-                <h1 className="font-bold text-xl ">
-                  BSc in Computer Science and Engineering (CSE)
-                </h1>
-                <p className="py-4 text-xl text-text-color ">
-                  National university of Bangladesh (2019-2023)
-                </p>
-                <p className="text-text-color">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae velit voluptate illo aliquid placeat .
-                </p>
-              </div>
-              <div className="hidden  lg:block w-1 max-h-fit my-10 bg-slate-600"></div>
+          <div className="bg-white flex flex-col lg:flex-row">
+            <div className="p-2 lg:p-10">
+              <h1 className="md:font-bold md:text-xl ">
+                BSc in Computer Science and Engineering (CSE)
+              </h1>
+              <p className="py-4 md:text-xl text-text-color ">
+                National university of Bangladesh (2019-2023)
+              </p>
+              <p className="text-text-color">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae velit voluptate illo aliquid placeat .
+              </p>
+            </div>
+            <div className="hidden  lg:block w-1 max-h-fit my-10 bg-slate-600"></div>
 
-              <div className="p-2 py-16 lg:p-10">
-                <h1 className="font-bold text-xl ">
-                  BSc in Computer Science and Engineering (CSE)
-                </h1>
-                <p className="py-4 text-xl text-text-color ">
-                  National university of Bangladesh (2019-2023)
-                </p>
-                <p className="text-text-color">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae velit voluptate illo aliquid placeat .
-                </p>
-              </div>
-              <div className="hidden  md:hidden lg:block w-1 max-h-fit my-10 bg-slate-600"></div>
+            <div className="p-2 py-16 lg:p-10">
+              <h1 className="md:font-bold md:text-xl ">
+                BSc in Computer Science and Engineering (CSE)
+              </h1>
+              <p className="py-4 md:text-xl text-text-color ">
+                National university of Bangladesh (2019-2023)
+              </p>
+              <p className="text-text-color">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae velit voluptate illo aliquid placeat .
+              </p>
+            </div>
+            <div className="hidden  md:hidden lg:block w-1 max-h-fit my-10 bg-slate-600"></div>
 
-              <div className="p-2  lg:p-10">
-                <h1 className="font-bold text-xl ">
-                  BSc in Computer Science and Engineering (CSE)
-                </h1>
-                <p className="py-4 text-xl text-text-color ">
-                  National university of Bangladesh (2019-2023)
-                </p>
-                <p className="text-text-color">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae velit voluptate illo aliquid placeat .
-                </p>
-              </div>
+            <div className="p-2  lg:p-10">
+              <h1 className="md:font-bold md:text-xl ">
+                BSc in Computer Science and Engineering (CSE)
+              </h1>
+              <p className="py-4 md:text-xl text-text-color ">
+                National university of Bangladesh (2019-2023)
+              </p>
+              <p className="text-text-color">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae velit voluptate illo aliquid placeat .
+              </p>
             </div>
           </div>
-        ) : (
-          ""
-        )}
+        </div>
       </div>
     </div>
   );

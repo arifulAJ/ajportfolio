@@ -21,7 +21,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="py-28 px-1 md:px-16 lg:px-32">
+    <div className="py-28 px-4 md:px-16 lg:px-32">
       <div className="flex mb-4 justify-center">
         <p className="flex">
           <span className="animate-pulse">
@@ -35,7 +35,7 @@ function ContactForm() {
           <span className="ml-2 font-semibold">My Contact</span>
         </p>
       </div>
-      <h1 className="text-center font-extrabold text-2xl md:text-5xl pt-4 pb-24">
+      <h1 className="text-center font-bold md:font-extrabold text-xl md:text-5xl pt-4 pb-24">
         I WANT TO HEAR FROM YOU
       </h1>
       <div className="flex flex-col  md:flex-row">
@@ -50,7 +50,7 @@ function ContactForm() {
               }
             }}
           >
-            <div className="grid grid-cols-1  lg:grid-cols-2 gap-4 ">
+            <div className="grid grid-cols-1  lg:grid-cols-2 gap-4 px-4 ">
               <div className="mb-4">
                 <label
                   htmlFor="name"
@@ -153,17 +153,17 @@ function ContactForm() {
             <button
               type="submit"
               disabled={state.submitting}
-              className="bg-button font-semibold text-xl text-white hover:text-button p-4 hover:bg-black  rounded"
+              className="bg-button font-semibold md:text-xl text-white hover:text-button p-4 hover:bg-black  rounded"
             >
               Send Me Message
             </button>
           </form>
         </div>
-        <div className="basis-1/3 px-4">
+        <div className="basis-1/3  py-6 md:py-0">
           <div className="flex items-center ">
             <Image
-              width={60}
-              height={60}
+              width={50}
+              height={50}
               className="bg-hover-testimonial rounded p-3"
               src={
                 "https://res.cloudinary.com/arifulislam/image/upload/v1705567502/output-onlinepngtools_h04rqd.png"
@@ -171,7 +171,7 @@ function ContactForm() {
             />
 
             <div className="pl-2">
-              <p className="text-2xl font-semibold font-serif ">Phone</p>
+              <p className="md:text-2xl font-semibold font-serif ">Phone</p>
               <a href="tel:01872297660" className="">
                 +880-1872 297660
               </a>
@@ -179,8 +179,8 @@ function ContactForm() {
           </div>
           <div className="flex py-12 items-center">
             <Image
-              width={60}
-              height={60}
+              width={50}
+              height={50}
               className="bg-hover-testimonial rounded p-3"
               src={
                 "https://res.cloudinary.com/arifulislam/image/upload/v1705567502/output-onlinepngtools_1_inrn5c.png"
@@ -188,7 +188,7 @@ function ContactForm() {
             />
 
             <div className="pl-2">
-              <p className="text-2xl font-semibold font-serif ">Email</p>
+              <p className="md:text-2xl font-semibold font-serif ">Email</p>
               <a href="mailto:arifulislam10111999@gmail.com" className="">
                 arifulislam10111999@gmail.com
               </a>
@@ -196,8 +196,8 @@ function ContactForm() {
           </div>
           <div className="flex items-center">
             <Image
-              width={60}
-              height={60}
+              width={50}
+              height={50}
               className="bg-hover-testimonial rounded  p-2"
               src={
                 "https://res.cloudinary.com/arifulislam/image/upload/v1705567502/output-onlinepngtools_2_podpuu.png"
@@ -205,7 +205,7 @@ function ContactForm() {
             />
 
             <div className="pl-2">
-              <p className="text-2xl font-semibold font-serif ">Address</p>
+              <p className="md:text-2xl font-semibold font-serif ">Address</p>
               <p className="">127 mojib sorok Sirajgonj, Dhaka, Bangladesh</p>
             </div>
           </div>

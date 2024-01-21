@@ -31,7 +31,7 @@ const ClientFeedback = () => {
     ],
   };
   return (
-    <div className="px-4 py-16 pt-16 md:px-16 lg:px-32">
+    <div className="px-4  py-16 pt-16 md:px-16 lg:px-32">
       <div>
         <div className="flex mb-4 justify-center">
           <p className="flex">
@@ -55,11 +55,11 @@ const ClientFeedback = () => {
         <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
           <div className="flex items-center justify-around m-4 ">
             <Image
-              className="rounded-full overflow-hidden w-24 h-24"
+              className="rounded-full overflow-hidden lg:w-24 lg:h-24"
               height={200}
               width={200}
               src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
+                "https://image9.photobiz.com/8584/14_20230502153638_11134158_large.jpg"
               }
             />
             <div>
@@ -96,116 +96,7 @@ const ClientFeedback = () => {
             sunt facilis.
           </p>
         </div>
-        <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
-          <div className="flex items-center justify-around m-4 ">
-            <Image
-              className="rounded-full overflow-hidden w-24 h-24"
-              height={200}
-              width={200}
-              src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
-              }
-            />
-            <div>
-              <h1 className="text-2xl ">jems bond</h1>
-              <p>ceo of cart</p>
-            </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni
-            beatae quia sapiente voluptate, sit optio facilis explicabo qui,
-            odio nesciunt, perspiciatis vel. Atque, officiis fugit quibusdam rem
-            sunt facilis.
-          </p>
-        </div>
-        <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
-          <div className="flex items-center justify-around m-4 ">
-            <Image
-              className="rounded-full overflow-hidden w-24 h-24"
-              height={200}
-              width={200}
-              src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
-              }
-            />
-            <div>
-              <h1 className="text-2xl ">jems bond</h1>
-              <p>ceo of cart</p>
-            </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni
-            beatae quia sapiente voluptate, sit optio facilis explicabo qui,
-            odio nesciunt, perspiciatis vel. Atque, officiis fugit quibusdam rem
-            sunt facilis.
-          </p>
-        </div>
-        <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
-          <div className="flex items-center justify-around m-4 ">
-            <Image
-              className="rounded-full overflow-hidden w-24 h-24"
-              height={200}
-              width={200}
-              src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
-              }
-            />
-            <div>
-              <h1 className="text-2xl ">jems bond</h1>
-              <p>ceo of cart</p>
-            </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni
-            beatae quia sapiente voluptate, sit optio facilis explicabo qui,
-            odio nesciunt, perspiciatis vel. Atque, officiis fugit quibusdam rem
-            sunt facilis.
-          </p>
-        </div>
-        <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
-          <div className="flex items-center justify-around m-4 ">
-            <Image
-              className="rounded-full overflow-hidden w-24 h-24"
-              height={200}
-              width={200}
-              src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
-              }
-            />
-            <div>
-              <h1 className="text-2xl ">jems bond</h1>
-              <p>ceo of cart</p>
-            </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni
-            beatae quia sapiente voluptate, sit optio facilis explicabo qui,
-            odio nesciunt, perspiciatis vel. Atque, officiis fugit quibusdam rem
-            sunt facilis.
-          </p>
-        </div>
-        <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
-          <div className="flex items-center justify-around m-4 ">
-            <Image
-              className="rounded-full overflow-hidden w-24 h-24"
-              height={200}
-              width={200}
-              src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
-              }
-            />
-            <div>
-              <h1 className="text-2xl ">jems bond</h1>
-              <p>ceo of cart</p>
-            </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni
-            beatae quia sapiente voluptate, sit optio facilis explicabo qui,
-            odio nesciunt, perspiciatis vel. Atque, officiis fugit quibusdam rem
-            sunt facilis.
-          </p>
-        </div>
+
         <div className="bg-testimonial hover:bg-hover-testimonial p-6 rounded">
           <div className="flex items-center justify-around m-4 ">
             <Image

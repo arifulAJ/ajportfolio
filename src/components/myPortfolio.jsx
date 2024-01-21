@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     name: "Project 2",
-    category: "Email Signature",
+    category: "Wordpress developer",
     animation: "animate-portfolio-enter-bottom-right",
     url: "https://elements-cover-images-0.imgix.net/914c2969-88ba-4b7e-b141-0e7f1a20f970?auto=compress%2Cformat&w=900&fit=max&s=2b29806ef73fd9d5ebe1877edf244ae1",
   },
@@ -28,7 +28,7 @@ const projects = [
   {
     id: 4,
     name: "Project 4",
-    category: "Email Signature",
+    category: "Wordpress developer",
     animation: "animate-portfolio-enter-top",
     url: "https://elements-cover-images-0.imgix.net/914c2969-88ba-4b7e-b141-0e7f1a20f970?auto=compress%2Cformat&w=900&fit=max&s=2b29806ef73fd9d5ebe1877edf244ae1",
   },
@@ -36,7 +36,11 @@ const projects = [
 ];
 const MyPortfolio = (selectedCategory) => {
   const [filteredProjects, setFilteredProjects] = useState(projects);
-  const categories = ["Web Development", "Email Signature"];
+  const categories = [
+    "Web Development",
+    "Email Signature",
+    "Wordpress developer",
+  ];
 
   const handleFilter = (selectedCategory) => {
     if (selectedCategory === "") {

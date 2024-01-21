@@ -110,11 +110,29 @@ module.exports = {
         fadeInUp: {
           "0%": {
             opacity: 0,
+            transform: "translateY(0%)",
+          },
+          "25%": {
+            opacity: 0,
+            transform: "translateY(8%)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(1 rem)",
+          },
+        },
+        fadeInUplg: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(0%)",
+          },
+          "25%": {
+            opacity: 0,
             transform: "translateY(30%)",
           },
           "100%": {
             opacity: 1,
-            transform: "translateY(3 rem)",
+            transform: "translateY(1 rem)",
           },
         },
       },
@@ -137,6 +155,8 @@ module.exports = {
         "fade-in-up-five": "fadeInUp 3.5s ease-in-out",
         "fade-in-up-resume1": "fadeInUp 1.5s ease-in-out",
         "fade-in-up-resume2": "fadeInUp 1.5s ease-in-out",
+        "fade-in-up-resume1lg": "fadeInUplg 1.5s ease-in-out",
+        "fade-in-up-resume2lg": "fadeInUplg 1.5s ease-in-out",
       },
     },
   },

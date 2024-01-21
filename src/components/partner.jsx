@@ -31,7 +31,7 @@ const Partner = () => {
     ],
   };
   return (
-    <div className="pt-24 px-1 md:px-16 lg:px-32  ">
+    <div className="pt-24 px-6 md:px-16 lg:px-32  ">
       <div className="flex mb-4 justify-center  ">
         <p className="flex ">
           {" "}
@@ -51,7 +51,69 @@ const Partner = () => {
       </h1>
       <div>
         <Slider {...settings}>
-          <div className="border-orange-200 border-2 rounded p-6 ">
+          <div className="border-orange-200 border-2 rounded p-6 align-middle items-center  ">
+            <Image
+              className=" overflow-hidden w-20 h-20 lg:w-24 lg:h-24"
+              height={200}
+              width={200}
+              src={"https://i.ibb.co/0crR6X4/LOGO-AJ.png"}
+            />
+            <h1 className="text-white ">hi</h1>
+          </div>
+          <div className="border-orange-200 border-2 rounded p-6 align-middle items-center  ">
+            <Image
+              className=" overflow-hidden w-20 h-20 lg:w-24 lg:h-24"
+              height={200}
+              width={200}
+              src={
+                "https://static.vecteezy.com/system/resources/thumbnails/023/654/784/small/golden-logo-template-free-png.png"
+              }
+            />
+            <h1 className="text-white ">hi</h1>
+          </div>
+          <div className="border-orange-200 border-2 rounded p-6 align-middle items-center  ">
+            <Image
+              className=" overflow-hidden w-20 h-20 lg:w-24 lg:h-24"
+              height={200}
+              width={200}
+              src={
+                "https://www.dlf.pt/dfpng/middlepng/519-5190252_company-logo-with-name-png-transparent-png.png"
+              }
+            />
+            <h1 className="text-white ">hi</h1>
+          </div>
+          <div className="border-orange-200 border-2 rounded p-6 align-middle items-center  ">
+            <Image
+              className=" overflow-hidden w-20 h-20 lg:w-24 lg:h-24"
+              height={200}
+              width={200}
+              src={"https://img.lovepik.com/element/45016/6380.png_860.png"}
+            />
+            <h1 className="text-white ">hi</h1>
+          </div>
+          <div className="border-orange-200 border-2 rounded p-6 align-middle items-center  ">
+            <Image
+              className=" overflow-hidden w-20 h-20 lg:w-24 lg:h-24"
+              height={200}
+              width={200}
+              src={
+                "https://1000logos.net/wp-content/uploads/2021/11/logo-Paramount.png"
+              }
+            />
+            <h1 className="text-white ">hi</h1>
+          </div>
+          <div className="border-orange-200 border-2 rounded p-6 align-middle items-center  ">
+            <Image
+              className=" overflow-hidden w-20 h-20 lg:w-24 lg:h-24"
+              height={200}
+              width={200}
+              src={
+                "https://assets.stickpng.com/images/628151dfee32cb3fb0a4f20d.png"
+              }
+            />
+            <h1 className="text-white ">hi</h1>
+          </div>
+          {/* <div className="border-orange-200 border-2 rounded p-6 ">
             <Image
               className="rounded-full overflow-hidden w-24 h-24"
               height={200}
@@ -110,17 +172,7 @@ const Partner = () => {
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
               }
             />
-          </div>
-          <div className="border-orange-200 border-2 rounded p-6 ">
-            <Image
-              className="rounded-full overflow-hidden w-24 h-24"
-              height={200}
-              width={200}
-              src={
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gGkjIFofQgvH4BjVqSqJ03uDB4PQeYynrm9Zb8xZER-7vn4rT2VohxqfJfiKl1LDK8&usqp=CAU"
-              }
-            />
-          </div>
+          </div> */}
         </Slider>
       </div>
     </div>

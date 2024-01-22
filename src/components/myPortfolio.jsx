@@ -54,7 +54,7 @@ const MyPortfolio = (selectedCategory) => {
   };
 
   return (
-    <div className="pt-24 px-1 md:px-16 lg:px-32  ">
+    <div className="pt-24 px-4 md:px-16 lg:px-32  ">
       <div className="flex mb-4 justify-center  ">
         <p className="flex ">
           {" "}

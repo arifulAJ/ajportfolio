@@ -24,7 +24,7 @@ const MyResume = () => {
             <span className="ml-2 font-semibold">My Resume</span>
           </p>
         </div>
-        <h1 className="text-center font-extrabold text-2xl md:text-5xl pt-4 pb-24 ">
+        <h1 className="text-center font-extrabold text-xl md:text-5xl pt-4 pb-24 ">
           4+ YEARS OF EXPERIENCE
         </h1>
         {/* education section  */}

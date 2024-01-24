@@ -69,7 +69,7 @@ const MyPortfolio = (selectedCategory) => {
           <span className="ml-2 font-semibold">My Portfolio</span>
         </p>
       </div>
-      <h1 className="text-center font-extrabold text-2xl md:text-5xl pt-4 pb-24 ">
+      <h1 className="text-center font-extrabold text-2xl md:text-5xl pt-4 pb-16 md:pb-24 ">
         VISIT MY PORTFOLIO
       </h1>
 

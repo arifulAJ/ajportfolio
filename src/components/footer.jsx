@@ -70,15 +70,17 @@ const Footer = () => {
                 width={30}
                 height={30}
                 className="transition bg-orange-500 duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0 rounded"
-                src="https://res.cloudinary.com/arifulislam/image/upload/v1705576492/3057625_facebook_media_network_social_icon_rwj0eh.png"
+                src="https://res.cloudinary.com/arifulislam/image/upload/v1705932581/WHITE_b7rdzv.png"
               />
               <div className="absolute top-0 left-0 w-full h-full bg-white opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 rounded">
-                <Image
-                  width={30}
-                  height={30}
-                  className="transition duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0"
-                  src="https://res.cloudinary.com/arifulislam/image/upload/v1705577387/3057625_facebook_media_network_social_icon_vwjl66.svg"
-                />
+                <a href="https://www.linkedin.com/in/arifulislamaj10">
+                  <Image
+                    width={30}
+                    height={30}
+                    className="transition duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0"
+                    src="https://res.cloudinary.com/arifulislam/image/upload/v1705932581/orenge_edgwfz.png"
+                  />
+                </a>
               </div>
             </div>
             <div className="group relative rounded">
@@ -86,31 +88,35 @@ const Footer = () => {
                 width={30}
                 height={30}
                 className="transition bg-orange-500 duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0 rounded"
-                src="https://res.cloudinary.com/arifulislam/image/upload/v1705576492/3057625_facebook_media_network_social_icon_rwj0eh.png"
+                src="https://res.cloudinary.com/arifulislam/image/upload/v1705934039/WHITE_of7pti.png"
               />
               <div className="absolute top-0 left-0 w-full h-full bg-white opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 rounded">
-                <Image
-                  width={30}
-                  height={30}
-                  className="transition duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0"
-                  src="https://res.cloudinary.com/arifulislam/image/upload/v1705577387/3057625_facebook_media_network_social_icon_vwjl66.svg"
-                />
+                <a href="https://twitter.com/arifulislamaj10">
+                  <Image
+                    width={30}
+                    height={30}
+                    className="transition duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0"
+                    src="https://res.cloudinary.com/arifulislam/image/upload/v1705934038/orengx_o9ydow.png"
+                  />
+                </a>
               </div>
             </div>
             <div className="group relative rounded">
               <Image
                 width={30}
                 height={30}
-                className="transition bg-orange-500 duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0 rounded"
-                src="https://res.cloudinary.com/arifulislam/image/upload/v1705576492/3057625_facebook_media_network_social_icon_rwj0eh.png"
+                className="transition p-1 bg-orange-500 duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0 rounded"
+                src="https://res.cloudinary.com/arifulislam/image/upload/v1706088312/insta_fx09re.png"
               />
               <div className="absolute top-0 left-0 w-full h-full bg-white opacity-0 transition duration-300 ease-in-out group-hover:opacity-100 rounded">
-                <Image
-                  width={30}
-                  height={30}
-                  className="transition duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0"
-                  src="https://res.cloudinary.com/arifulislam/image/upload/v1705577387/3057625_facebook_media_network_social_icon_vwjl66.svg"
-                />
+                <a href="https://www.instagram.com/arifulislamaj10">
+                  <Image
+                    width={30}
+                    height={30}
+                    className="transition p-1 duration-300 ease-in-out hover:opacity-80 group-hover:filter group-hover:grayscale-0"
+                    src="https://res.cloudinary.com/arifulislam/image/upload/v1706088312/instaoreng_mnf6ik.png"
+                  />
+                </a>
               </div>
             </div>
           </div>
